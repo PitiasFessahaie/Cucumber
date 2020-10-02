@@ -18,8 +18,8 @@ snippets = SnippetType.CAMELCASE,
 features = {"src/test/resources/features/WalmartSearch.feature" }, 
 glue = { "com.bdd.stepdefinitions" }, //add packages with a comma ,
 monochrome = true,
-		// tags = {"@single and "})
-		tags = { "@SmokeTest" })
+		 tags = {"@single and "})
+		//tags = { "@SmokeTest" })
 public class WalmartSearchRunner {
 
 	@AfterClass
